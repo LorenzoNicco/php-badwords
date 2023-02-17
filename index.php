@@ -1,3 +1,7 @@
+<?php
+ $initialParagraphe = "Ciao a tutti, questo è il mio primo file php!";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +11,8 @@
     <title>PHP Badwords</title>
 </head>
 <body>
-    
+    <h1>Hello PHP!</h1>
+
+    <p><?php echo $initialParagraphe ?></p>
 </body>
 </html>
